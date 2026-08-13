@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="aplicationsToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="aplicationsToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="aplicationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 43</value>
+  </data>
+  <data name="aplicationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>  Aplications</value>
+  </data>
+  <data name="DrivingLicenseServcesToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DrivingLicenseServcesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 38</value>
+  </data>
+  <data name="DrivingLicenseServcesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Driving License Services</value>
+  </data>
+  <data name="NewDrivingLicenseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="NewDrivingLicenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 38</value>
+  </data>
+  <data name="NewDrivingLicenseToolStripMenuItem.Text" xml:space="preserve">
+    <value>New Driving License</value>
+  </data>
+  <data name="LocalLicenseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LocalLicenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 38</value>
+  </data>
+  <data name="LocalLicenseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Local License</value>
+  </data>
+  <data name="InternationalLicenseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="InternationalLicenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 38</value>
+  </data>
+  <data name="InternationalLicenseToolStripMenuItem.Text" xml:space="preserve">
+    <value>International License</value>
+  </data>
+  <data name="RenewDrivingLicenseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RenewDrivingLicenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 38</value>
+  </data>
+  <data name="RenewDrivingLicenseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Renew Driving License</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 6</value>
+  </data>
+  <data name="ReplaceToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ReplaceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 38</value>
+  </data>
+  <data name="ReplaceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Replacement For Lost or Damaged License</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 6</value>
+  </data>
+  <data name="ReleaseDetainedToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ReleaseDetainedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 38</value>
+  </data>
+  <data name="ReleaseDetainedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Release Detained Driving License</value>
+  </data>
+  <data name="RetakeTestToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RetakeTestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 38</value>
+  </data>
+  <data name="RetakeTestToolStripMenuItem.Text" xml:space="preserve">
+    <value>Retake Test</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 6</value>
+  </data>
+  <data name="ManageApplicationToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ManageApplicationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 38</value>
+  </data>
+  <data name="ManageApplicationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manage Applications</value>
+  </data>
+  <data name="LocalDrivingLToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LocalDrivingLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 38</value>
+  </data>
+  <data name="LocalDrivingLToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manage Local Driving License Applications</value>
+  </data>
+  <data name="ManageInternationalLicenseApplicationsToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ManageInternationalLicenseApplicationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 38</value>
+  </data>
+  <data name="ManageInternationalLicenseApplicationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manage International License Applications</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 6</value>
+  </data>
+  <data name="DetainLicensesToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DetainLicensesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 38</value>
+  </data>
+  <data name="DetainLicensesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Detain Licenses</value>
+  </data>
+  <data name="ManageDetainedLicensesToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ManageDetainedLicensesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 38</value>
+  </data>
+  <data name="ManageDetainedLicensesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manage Detained Licenses</value>
+  </data>
+  <data name="DetainedLicenseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DetainedLicenseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 38</value>
+  </data>
+  <data name="DetainedLicenseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Detained License</value>
+  </data>
+  <data name="ReleaseToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ReleaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 38</value>
+  </data>
+  <data name="ReleaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Release Detained License</value>
+  </data>
+  <data name="ApplicationTypeToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ApplicationTypeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 38</value>
+  </data>
+  <data name="ApplicationTypeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manage Application Types</value>
+  </data>
+  <data name="ManageTestTypesToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ManageTestTypesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 38</value>
+  </data>
+  <data name="ManageTestTypesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Manage Test Types</value>
+  </data>
+  <data name="peopleToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="peopleToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="peopleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 43</value>
+  </data>
+  <data name="peopleToolStripMenuItem.Text" xml:space="preserve">
+    <value>  People</value>
+  </data>
+  <data name="DriversToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="DriversToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DriversToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 43</value>
+  </data>
+  <data name="DriversToolStripMenuItem.Text" xml:space="preserve">
+    <value>  Drivers</value>
+  </data>
+  <data name="usersToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="usersToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="usersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 43</value>
+  </data>
+  <data name="usersToolStripMenuItem.Text" xml:space="preserve">
+    <value>  Users</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 43</value>
+  </data>
+  <data name="accountSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>  Account Settings</value>
+  </data>
+  <data name="CurrentUserInfoToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="CurrentUserInfoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 38</value>
+  </data>
+  <data name="CurrentUserInfoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Current User Info</value>
+  </data>
+  <data name="ChangePasswordToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ChangePasswordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 38</value>
+  </data>
+  <data name="ChangePasswordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="signOutToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="signOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 38</value>
+  </data>
+  <data name="signOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <metadata name="MenuStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuStripMain.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuStripMain.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="MenuStripMain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="MenuStripMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuStripMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 0, 2</value>
+  </data>
+  <data name="MenuStripMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>870, 47</value>
+  </data>
+  <data name="MenuStripMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MenuStripMain.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuStripMain.Name" xml:space="preserve">
+    <value>MenuStripMain</value>
+  </data>
+  <data name="&gt;&gt;MenuStripMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStripMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStripMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>870, 462</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        H/+JfIf/QTo+/3x0bf/9693//evd//3r3f/9693//dm+/1VKQvkAAAApAAAAAAAAAAAAAAA2ODQw7f3r
+        3f/9693//evd//3r3f/9693/8eDT/yQhIP9iWGD/hHeC/y0pKv84NDL/opCD/29fU/9vZ2H/opaN/zYy
+        MP8tKSr/hHeC/2FXX/8lIiH/8uHT//3r3f/9693//evd//3r3f/92b7/Qjoz+gAAADYAAAAAAAAAAAAA
+        ADY4NDDt/evd//3r3f/9693//evd//3r3f/9693/2cq+/xwaGf9XT1X/joCL/2VbY/86NDb/JCAg/yQh
+        Iv86NTf/ZVxj/46Ai/9WTVT/HBoa/9nKvv/9693//evd//3r3f/9693//evd//3Zvv9COjP6AAAANgAA
+        AAAAAAAAAAAANjg0MO39693//evd//3r3f/9693//evd//3r3f/9693/49PG/z86N/8lIiP/XlRc/4V4
+        g/+PgYz/j4GM/4V4g/9dVFv/JSIj/0A8Of/k1Mf//evd//3r3f/9693//evd//3r3f/9693//dm+/0I6
+        M/oAAAA2AAAAAAAAAAAAAAA2ODQw7f3r3f/9693//evd//3r3f/9693//evd//3r3f/9693//evd/7iq
+        oP9UTkr/GRYW/wwKCv8MCwv/GRcX/1VPS/+6rKL//evd//3r3f/9693//evd//3r3f/9693//evd//3r
+        3f/92b7/Qjoz+gAAADYAAAAAAAAAAAAAADY4NDDt/evd//fl2P/LvbL/9eTW//3r3f/9693//evd//3r
+        3f/66Nr/08S5/+nZzP/94c3/hnNl/4Z8df/9693/6dnM/9PEuf/66Nr//evd//3r3f/9693//evd//Tj
+        1f/LvbL/9+XY//3Zvv9COjP6AAAANgAAAAAAAAAAAAAANjg0MO39693/3s7C/0M/O/8VExL/Ih8d/zMv
+        LP83MzD/JyQi/xMSEP82Mi//taie//3hzf+Gc2X/hnx1//3r3f+0p53/NjIv/xMSEP8oJSP/ODQx/zMv
+        LP8hHh3/FRMS/0M/O//fz8P//dm+/0I6M/oAAAA2AAAAAAAAAAAAAAA2ODQw7f3r3f/9693//evd//3r
+        3f/r2s3/28zA/9bHu//n18r/+efa//3r3f/9693//eHN/4ZzZf+GfHX//evd//3r3f/9693/+efa/+bW
+        yf/Wx7v/28zA/+vazf/9693//evd//3r3f/92b7/Qjoz+gAAADYAAAAAAAAAAAAAADY4NDDt/evd//fl
+        2P/Nv7P/9uXX//3r3f/9693//evd//3r3f/76dv/1ca6/+vazf/94c3/hnNl/4Z8df/9693/6tnN/9XG
+        uv/76dv//evd//3r3f/9693//evd//Xk1v/Nv7P/+ObZ//3Zvv9COjP6AAAANgAAAAAAAAAAAAAANjg0
+        MO39693/3s7C/0A8OP8UEhH/IyAe/zQwLf85NTH/KCUj/xMSEP80MC3/tKed//3hzf+Gc2X/hnx1//3r
+        3f+0p53/NDAt/xMSEP8pJiT/OTUx/zQwLf8jIB7/FBIR/0E9Of/fz8P//dm+/0I6M/oAAAA2AAAAAAAA
+        AAAAAAA2ODQw7f3r3f/9693//evd//3r3f/p2cz/2cq+/9TFuf/k1Mf/+ObZ//3r3f/9693//eHN/4Zz
+        Zf+GfHX//evd//3r3f/9693/+ObZ/+TUx//Uxbn/2cq+/+nZzP/9693//evd//3r3f/92b7/Qjoz+gAA
+        ADYAAAAAAAAAAAAAAB5sZF7e/evd//fl2P/OwLT/9uXX//3r3f/9693//evd//3r3f/76dv/1se7/+jY
+        y//94c3/hnNl/4Z8df/9693//evd//3r3f/9693//evd//3r3f/9693//evd//3r3f/9693//evd//3Z
+        vv9COjP6AAAANgAAAAAAAAAAAAAAAP7r3b39693/3s7C/z87N/8UEhH/JCEf/zUxLv86NTL/Kick/xMS
+        EP8zLyz/tKed//3hzf+Gc2X/hnx1//3r3f/9693//evd//3r3f/9693//evd/97Owv/Uxbn//evd//fl
+        2P+8rqT//dm+/0I6M/oAAAA2AAAAAAAAAAAAAAAnUEpG5v3r3f/9693//evd//zq3P/o2Mv/2Mm9/9PE
+        uf/j08b/+ObZ//3r3f/9693//eHN/4ZzZf+GfHX//evd//3r3f/9693//evd//3r3f/9693/f3Zx/wUE
+        Bv95cWz/KiYr/wkICv/92b7/Qjoz+gAAADYAAAAAAAAAAAAAADU2MS7t/evd//3r3f/9693//evd//3r
+        3f/9693//evd//3r3f/9693//evd//3r3f/94c3/hnNl/4Z8df/9693//evd//3r3f/9693//evd//3r
+        3f9+dXD/NC9q/zEtV/9MRZn/CwsO//3Zvv9AODL6AAAANQAAAAAAAAAAAAAADA0MC+RKRUHxsqWb//Lh
+        0//9693//evd//3r3f/9693//evd//3r3f/66Nr/xLas/2pfV/oTEQ/5Dg0M82dfWvbEtqz/+efa//3r
+        3f/9693//evd/351cP89N3v/bmTf/25k3/8IBwr/VElB/RYTEewAAAALAAAAAAAAAAAAAAAAAAAABwAA
+        AFYVFBO+CgkJ8yMhH+9OSUTvXVdT8WVdWPNTTUnvLSoo7goKCfYVFBLPBwcEcwAAABIAAAAPBwcFaBUU
+        EtAODQzzLCkn7lJLTPdeVlj/List/z03e/9uZN//bmTf/wMDBvsAAABWAAAABgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAADAAAAJQAAAEwAAABWAAAAXQAAAE0AAAAwAAAABgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAIAAAApAgIF+jkxk/8cGEr9PTd7/25k3/9uZN//AwMH9wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwnyTEHE/x8cT/dEPon/bmTf/2FZxv8FBArxAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFDGsDAgb2AAAA/wMCBvkEBAj3BAQI9AUF
+        DGgAAAAAAAAAAAAAAAAAAAAA//AP///AA///wAH//wAA//8AAP/+CBB/zgAAc4AAAAGAAAABgAAAAYAA
+        AAGAAAADgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABwAAAAYAA
+        AAGAAAABgAAAAcAAAAP4B+AP///4D///+A8=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;aplicationsToolStripMenuItem.Name" xml:space="preserve">
+    <value>aplicationsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aplicationsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrivingLicenseServcesToolStripMenuItem.Name" xml:space="preserve">
+    <value>DrivingLicenseServcesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DrivingLicenseServcesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewDrivingLicenseToolStripMenuItem.Name" xml:space="preserve">
+    <value>NewDrivingLicenseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;NewDrivingLicenseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LocalLicenseToolStripMenuItem.Name" xml:space="preserve">
+    <value>LocalLicenseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;LocalLicenseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InternationalLicenseToolStripMenuItem.Name" xml:space="preserve">
+    <value>InternationalLicenseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;InternationalLicenseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RenewDrivingLicenseToolStripMenuItem.Name" xml:space="preserve">
+    <value>RenewDrivingLicenseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;RenewDrivingLicenseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReplaceToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReplaceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ReplaceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReleaseDetainedToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReleaseDetainedToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ReleaseDetainedToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RetakeTestToolStripMenuItem.Name" xml:space="preserve">
+    <value>RetakeTestToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;RetakeTestToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageApplicationToolStripMenuItem.Name" xml:space="preserve">
+    <value>ManageApplicationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ManageApplicationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LocalDrivingLToolStripMenuItem.Name" xml:space="preserve">
+    <value>LocalDrivingLToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;LocalDrivingLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageInternationalLicenseApplicationsToolStripMenuItem.Name" xml:space="preserve">
+    <value>ManageInternationalLicenseApplicationsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ManageInternationalLicenseApplicationsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DetainLicensesToolStripMenuItem.Name" xml:space="preserve">
+    <value>DetainLicensesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DetainLicensesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageDetainedLicensesToolStripMenuItem.Name" xml:space="preserve">
+    <value>ManageDetainedLicensesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ManageDetainedLicensesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DetainedLicenseToolStripMenuItem.Name" xml:space="preserve">
+    <value>DetainedLicenseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DetainedLicenseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReleaseToolStripMenuItem.Name" xml:space="preserve">
+    <value>ReleaseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ReleaseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ApplicationTypeToolStripMenuItem.Name" xml:space="preserve">
+    <value>ApplicationTypeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ApplicationTypeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManageTestTypesToolStripMenuItem.Name" xml:space="preserve">
+    <value>ManageTestTypesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ManageTestTypesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;peopleToolStripMenuItem.Name" xml:space="preserve">
+    <value>peopleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;peopleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DriversToolStripMenuItem.Name" xml:space="preserve">
+    <value>DriversToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DriversToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;usersToolStripMenuItem.Name" xml:space="preserve">
+    <value>usersToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;usersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accountSettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>accountSettingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;accountSettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentUserInfoToolStripMenuItem.Name" xml:space="preserve">
+    <value>CurrentUserInfoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CurrentUserInfoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangePasswordToolStripMenuItem.Name" xml:space="preserve">
+    <value>ChangePasswordToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ChangePasswordToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;signOutToolStripMenuItem.Name" xml:space="preserve">
+    <value>signOutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;signOutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
